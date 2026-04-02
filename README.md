@@ -7,8 +7,11 @@ I'm a full-stack developer focused on building and scaling modern web applicatio
 
 ```javascript
 const fernando = {
-  pronouns: "he/him",
-  code: ["JavaScript", "TypeScript", "Python"],
+  name: "Fernando Agredano",
+  role: "Full Stack Developer | AI Engineer",
+
+  languages: ["JavaScript", "TypeScript", "Python", "C#"],
+
   askMeAbout: [
     "Full-stack web development",
     "AI-driven development workflows",
@@ -16,10 +19,11 @@ const fernando = {
     "LLM integrations & agents",
     "CI/CD & deployments"
   ],
+
   technologies: {
     frontEnd: {
-      js: ["React", "Next.js", "Vite", "Astro"],
-      css: ["CSS3", "Tailwind"],
+      frameworks: ["React", "Next.js", "Vite", "Astro"],
+      styling: ["CSS3", "Tailwind CSS"],
       uiLibraries: [
         "Material UI",
         "Shadcn/ui",
@@ -32,69 +36,93 @@ const fernando = {
         "ReactBits",
         "Lenis (smooth scroll)"
       ],
-      aiUI: [
-        "Pencil",
-        "AI-assisted UI generation",
-        "Design-to-code workflows"
+      patterns: [
+        "Component-driven architecture",
+        "Reusable UI systems",
+        "Responsive design (SPA / SSR)"
       ]
     },
+
     backEnd: {
-      js: ["Node.js", "Express", "NestJS"],
-      dotnet: ["ASP.NET", "C#"],
-      python: ["Python (AI/automation scripts)"],
+      frameworks: ["Node.js", "Express", "NestJS", "ASP.NET"],
+      architecture: [
+        "REST APIs",
+        "Dependency Injection (DI)",
+        "Layered architecture",
+        "Modular design"
+      ]
     },
+
+    databases: [
+      "PostgreSQL",
+      "MySQL",
+      "SQL Server",
+      "MongoDB",
+      "Supabase",
+      "Firebase"
+    ],
+
     devOps: [
       "GitHub Actions",
       "Docker",
-      "CI/CD",
+      "CI/CD pipelines",
       "Automated deployments"
     ],
-    cloudBasics: [
+
+    cloud: [
       "AWS EC2",
       "S3",
-      "Lambda (basic usage)"
+      "AWS Lambda (basic)"
     ],
-    databases: ["PostgreSQL", "SQL Server", "MySQL", "MongoDB", "Supabase", "Firebase"],
-    testing: ["Vitest", "Cypress"],
-    automationAI: [
+
+    testing: ["Vitest", "Cypress"]
+  },
+
+  ai: {
+    tools: [
       "ChatGPT",
       "Codex",
       "Claude Code",
       "OpenCode",
-      "OpenClaw",
+      "OpenClaw"
+    ],
+    workflows: [
       "AI agents & subagents",
       "MCPs (Model Context Protocols)",
       "Claude MCP workflows",
-      "n8n",
+      "n8n automation",
       "Agent Skills"
     ],
-    aiDevEnvironment: [
-      "Zed",
+    ui: [
+      "AI-assisted UI generation",
+      "Design-to-code workflows",
+      "Pencil (AI UI tool)"
+    ],
+    devEnvironment: [
       "Cursor",
       "Windsurf",
-      "AI-native IDEs",
-      "Google Antigravity (experimental)"
-    ],
-    misc: [
-      "Version control (Git)",
-      "LLM orchestration",
-      "Prompt engineering",
-      "SQL/NoSQL modeling",
-      "Process automation",
-    ],
+      "Zed",
+      "AI-native IDEs"
+    ]
   },
+
+  coreSkills: [
+    "Git & version control",
+    "LLM orchestration",
+    "Prompt engineering",
+    "SQL/NoSQL data modeling",
+    "Process automation"
+  ],
+
   architecture: {
     frontEnd: [
-      "Modular & component-driven architecture",
-      "Reusable UI systems & design patterns",
-      "Responsive UIs (SPA / SSR)",
-      "AI-generated interfaces & dynamic rendering"
+      "Modular & scalable architecture",
+      "Reusable component systems",
+      "Dynamic & AI-generated interfaces"
     ],
     backEnd: [
-      "Modular architecture",
-      "Dependency Injection (DI)",
-      "Service-based & layered architecture",
-      "Scalable REST APIs",
+      "Service-based architecture",
+      "Scalable API design",
       "Automation pipelines"
     ],
     devOps: [
@@ -102,24 +130,16 @@ const fernando = {
       "Containerization",
       "Automated deployments"
     ],
-    databases: ["Relational", "NoSQL"],
+    databases: [
+      "Relational modeling",
+      "NoSQL design patterns"
+    ]
   },
-  currentFocus: "Building AI-powered full-stack apps, agents, and automated systems",
-  funFact: "I ship faster with AI than most teams do without it.",
+
+  currentFocus:
+    "Building AI-powered full-stack applications, intelligent agents, and automated systems"
 };
 ```
-
-## Skill stack
-
-[![My Skills](https://skillicons.dev/icons?i=next,vite,remix,astro,django,javascript,typescript,react,nodejs,python,nestjs,net,tailwind,materialui,postgresql,mysql,firebase,mongodb,supabase,postgres,vitest,cypress,aws,docker,git,github,notion,obsidian,figma&theme=light)](https://skillicons.dev)
-
-<div align="center">
-  <h5>
-    Also comfortable with: AI-powered development tools such as Cursor, Google Antigravity, ChatGPT, Codex, GitHub Copilot, Gemini,        
-    Claude Code, OpenClaw, OpenCode,
-    Leveraging them to accelerate coding, automate workflows, prototype ideas, and build smarter, more efficient solutions.
-  </h5>
-</div>
 
 ## Stats
 
