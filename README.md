@@ -10,134 +10,51 @@ const fernando = {
   name: "Fernando Agredano",
   role: "Full Stack Developer | AI Engineer",
 
-  languages: ["JavaScript", "TypeScript", "Python", "C#"],
+  stack: {
+    languages: ["JavaScript", "TypeScript", "Python", "C#"],
 
-  askMeAbout: [
-    "Full-stack web development",
-    "AI-driven development workflows",
-    "Process automation & internal tools",
-    "LLM integrations & agents",
-    "CI/CD & deployments"
-  ],
-
-  technologies: {
-    frontEnd: {
-      frameworks: ["React", "Next.js", "Vite", "Astro"],
-      styling: ["CSS3", "Tailwind CSS"],
-      uiLibraries: [
-        "Material UI",
-        "Shadcn/ui",
-        "Aceternity UI",
-        "Magic UI",
-        "Origin UI"
-      ],
-      animation: [
-        "GSAP",
-        "ReactBits",
-        "Lenis (smooth scroll)"
-      ],
-      patterns: [
-        "Component-driven architecture",
-        "Reusable UI systems",
-        "Responsive design (SPA / SSR)"
-      ]
+    frontend: {
+      core: ["React", "Next.js", "Vite", "Astro"],
+      styling: ["Tailwind CSS", "Material UI", "Shadcn/ui", , "Aceternity UI", "Magic UI", "Origin UI"],
+      animation: ["GSAP", "ReactBits", "Lenis (smooth scroll)"]
     },
 
-    backEnd: {
-      frameworks: ["Node.js", "Express", "NestJS", "ASP.NET"],
-      architecture: [
-        "REST APIs",
-        "Dependency Injection (DI)",
-        "Layered architecture",
-        "Modular design"
-      ]
-    },
+    backend: ["Node.js", "Express", "NestJS", "ASP.NET"],
 
     databases: [
-      "PostgreSQL",
-      "MySQL",
-      "SQL Server",
-      "MongoDB",
-      "Supabase",
-      "Firebase"
+      "PostgreSQL", "MySQL", "SQL Server",
+      "MongoDB", "Supabase", "Firebase"
     ],
 
-    devOps: [
-      "GitHub Actions",
-      "Docker",
-      "CI/CD pipelines",
-      "Automated deployments"
-    ],
+    devops: ["Docker", "GitHub Actions", "CI/CD"],
 
-    cloud: [
-      "AWS EC2",
-      "S3",
-      "AWS Lambda (basic)"
-    ],
+    cloud: ["AWS (EC2, S3, Lambda)"],
 
     testing: ["Vitest", "Cypress"]
   },
 
   ai: {
-    tools: [
-      "ChatGPT",
-      "Codex",
-      "Claude Code",
-      "OpenCode",
-      "OpenClaw"
-    ],
-    workflows: [
-      "AI agents & subagents",
-      "MCPs (Model Context Protocols)",
-      "Claude MCP workflows",
-      "n8n automation",
-      "Agent Skills"
-    ],
-    ui: [
-      "AI-assisted UI generation",
-      "Design-to-code workflows",
-      "Pencil (AI UI tool)"
-    ],
-    devEnvironment: [
-      "Cursor",
-      "Windsurf",
-      "Zed",
-      "AI-native IDEs"
+    tools: ["OpenCode", "Codex", "Claude"],
+    focus: [
+      "AI agents",
+      "LLM integrations",
+      "Automation (n8n)",
+      "Prompt engineering",
+      "Agent Skills",
+      "MCP Servers"
     ]
   },
 
-  coreSkills: [
-    "Git & version control",
-    "LLM orchestration",
-    "Prompt engineering",
-    "SQL/NoSQL data modeling",
+  expertise: [
+    "Full-stack development",
+    "AI-driven workflows",
+    "API design (REST)",
+    "Scalable architecture",
     "Process automation"
   ],
 
-  architecture: {
-    frontEnd: [
-      "Modular & scalable architecture",
-      "Reusable component systems",
-      "Dynamic & AI-generated interfaces"
-    ],
-    backEnd: [
-      "Service-based architecture",
-      "Scalable API design",
-      "Automation pipelines"
-    ],
-    devOps: [
-      "CI/CD pipelines",
-      "Containerization",
-      "Automated deployments"
-    ],
-    databases: [
-      "Relational modeling",
-      "NoSQL design patterns"
-    ]
-  },
-
   currentFocus:
-    "Building AI-powered full-stack applications, intelligent agents, and automated systems"
+    "Building AI-powered apps, intelligent agents, and automated systems"
 };
 ```
 
